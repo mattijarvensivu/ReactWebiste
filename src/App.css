@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 15s linear;
+  height: 80px;
+}
+.navbar{
+  margin-bottom: 0 !important;
+}
+.Bannertext{
+  margin-top:15%;
+  margin-bottom:5%;
+  font-size: 39px;
+}
+
+.App-header {
+ /* background-color: #212;*/
+  background-image:-webkit-linear-gradient(top,rgba(255, 255, 0, 0.1) , rgba(255, 255, 255, 0.2) ), url("./Images/banner3.jpg");
+  color: white;
+  height: 900px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Rotating-text-wrapper{
+
+  
+}
+.App-title {
+ 
+ 
+  color: white;
+  font-size: 40px;
+}
+.first_content{
+ /*background-image: linear-gradient(0deg,#222222 0%,#ffffff 100%); */
+ padding-bottom:20px;
+}
+.text_content{
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.content_header{
+  margin-bottom: 40px;
+}
+.Mypicture{
+  height:  400px;
+  margin-bottom: 20px;
+}
+.languageicons{
+  min-width: 155px;
+  max-width: 240px;
+  height: 155px;
+  padding: 20px;
+
+}
+
+
+.languageicons:hover{
+transform: scale(1.20);
+transition: transform .40s ease;
+}
+.text_content p{
+  text-align: left;
+}
+.App-intro {
+  font-size: x-large;
+
+}
+
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+.teknologies_content{
+ 
+}
+.footer{
+  padding: 50px;
+
+  background-color: currentcolor;
+}
+.footer h1{
+  color: white;
+  padding-bottom: 50px;
+}
+.footer h3{
+  color: white;
+}
+
+.footer p{
+  color: white;
+}
+ .icons{
+  width: 30px;
+  padding: 5px;
+
+}
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
